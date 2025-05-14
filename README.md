@@ -85,7 +85,7 @@ For using poetry take a look at [poetry installation](https://python-poetry.org/
 ├── ruff.toml                     # Formatter and linter configuration (Ruff)
 ├── game_design.html              # HTML file for viewing game design analysis without installation
 ├── marketing_campaign.html       # HTML file for viewing marketing campaign analysis without installation
-├── src                           # Source code directory
+└── src                           # Source code directory
     ├── dashboard.py              # Streamlit dashboard for marketing campaign visualization
     ├── marketing_campaign/       # Marketing campaign analysis
     │   ├── __init__.py           # Marks directory as a package
