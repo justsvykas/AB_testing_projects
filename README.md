@@ -28,7 +28,7 @@ This test evaluates whether moving the first in-game gate from level 30 (control
 - Recommendation: Stay with the control version (gate at level 30) as the experiment version showed negative impact on 7-day retention.
 
 # Installation
-Below is the process to install this project on your local machine. However, there is **game_design.html** and **marketing_campaign.html** files in the root of the project that can be used to view the analysis without installing the project.
+Below is the process to install this project on your local machine. However, there is **game_design.html** and **marketing_campaign.html** files in the root of the project that can be used to view the analysis without installing the project. Just download the files and open them in your browser.
 
 This analysis is structured to be easily continued by another developer, with dependency management handled via the Poetry library. It follows consistent coding standards, enforced using Ruff for linting. To further ease distribution, this project is packaged for ease of use.
 
@@ -36,11 +36,11 @@ Note, I put functions inside notebooks for easier access to logic behind the ana
 
 After placing yourself in your desired directory, run this command in your terminal to copy this repo.
 ```bash
-git clone https://github.com/TuringCollegeSubmissions/jusvyka-DS.v3.2.2.5
+git clone https://github.com/justsvykas/AB_testing_projects
 ```
 Go to project directory.
 ```bash
-cd jusvyka-DS.v3.2.2.5/
+cd AB_testing_projects
 ```
 install package
 ```bash
@@ -79,7 +79,6 @@ For using poetry take a look at [poetry installation](https://python-poetry.org/
 
 ```bash
 .
-├── 225.md                        # Documentation file for the task given by TC
 ├── .gitignore                    # Specifies files to ignore in Git version control
 ├── README.md                     # Project documentation
 ├── pyproject.toml                # Python project configuration (Poetry)
@@ -87,16 +86,13 @@ For using poetry take a look at [poetry installation](https://python-poetry.org/
 ├── game_design.html              # HTML file for viewing game design analysis without installation
 ├── marketing_campaign.html       # HTML file for viewing marketing campaign analysis without installation
 ├── src                           # Source code directory
-│   ├── dashboard.py              # Streamlit dashboard for marketing campaign visualization
-│   ├── marketing_campaign/       # Marketing campaign analysis
-│   │   ├── __init__.py           # Marks directory as a package
-│   │   ├── main.ipynb            # Main analysis notebook for marketing campaign
-│   │   └── data/                 # Data directory
-│   └── game_design/              # Game design analysis
-│       ├── __init__.py           # Marks directory as a package
-│       ├── main.ipynb            # Main analysis notebook for game design
-│       └── data/                 # Data directory
-└── .vscode                       # Directory for VS-specific settings
-    ├── extensions.json           # Recommended VS Code extensions
-    └── settings.json             # VS Code workspace settings
+    ├── dashboard.py              # Streamlit dashboard for marketing campaign visualization
+    ├── marketing_campaign/       # Marketing campaign analysis
+    │   ├── __init__.py           # Marks directory as a package
+    │   ├── main.ipynb            # Main analysis notebook for marketing campaign
+    │   └── data/                 # Data directory
+    └── game_design/              # Game design analysis
+        ├── __init__.py           # Marks directory as a package
+        ├── main.ipynb            # Main analysis notebook for game design
+        └── data/                 # Data directory
 ```
